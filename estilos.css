@@ -1,0 +1,107 @@
+body {
+    background: url('FONDO.jpg');
+    background-repeat: no-repeat; /*PARA SOLO SE RFEPITA EL FONDO*/
+    background-size: 100% 100%; /*avarca todo la pagina web el fondo en X*/
+    background-attachment: fixed; /*avarca todo la pagina web el fondo en y*/
+    color: #f5f5f5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*CAMBIA LA LETRA DE TODO EL TEXTO*/
+}
+a { /* COMANDOS PARA MODIFICAR LOS LINKS */
+        font-weight: 3;
+        color: rgb(248, 249, 250); /*Color de las letras antes de que acerquen el raton al cuadro del link */
+        text-decoration: none; /* Elimina la linea que viene por defecto en los links */
+        
+    }
+table{
+    font-size: larger;
+    height: 100px;
+    width: 55%;
+    border-color: #c5c0b0; /*COLOR DEL MARGEN*/
+    border-radius: 10px;
+    background: rgba(48, 49, 49, 0.8); /* LE DA COLOR AL FONDO DE LA TABLA, EN LA PARTE DONDE TIENE 
+                                            "0.8" LE INDICA LA TRANSPARECIA QUE TENDRA PARA QUE SE VEA
+                                            EL FONDO DE LA TABLA Y SE PUEDA VER LO DE ATRAS */
+    
+}
+.SELECT{
+    cursor: pointer; /*DA FORMATO AL BOTON DEL RATON PARA SELECCIONAR ALGUNA UNIDAD O REPORTE*/
+} 
+.SELECT:hover{ /*DA COLOR CUANDO EL RATON SE ACERQUE A ESCOGER UNA UNIDAD O REPORTE */
+    background: rgba(108, 174, 236, 0.4);
+
+}
+.WELCOME{
+    margin-inline: 25%; /*ACOMDOA AL CENTRO EL FONDO QUE TIENE EL "BIENVENIDO" AL CENTRO*/
+    border-radius: 20px;
+    background-color: rgba(48, 49, 49, 0.85);
+    height: 40px;
+    width: 50%;
+}
+.ICONS{
+    position: absolute;
+    font-size: 29.6px; /*tamaño de los iconos*/
+    color: rgb(241, 241, 235, .8);
+    text-align: center; 
+    text-decoration: none; /* SIN DECORACION EN ESCRITURA E ICONOS*/
+    margin-left: 34%; /* POSICION DENTRO DEL MARGEN HACIA LOS LADOS  */
+    width: 400px;
+    letter-spacing: 50px; /* SEPERA LOS ICONOS Y/O LETRAS */
+}
+.ICONS h5{
+    position: inherit;
+    letter-spacing: 0px;
+    margin-left: -10%;
+    margin-top: 1px;
+    font-weight: bold;
+}
+.ICONS_SCHOOL{
+    position: inherit;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.Boton-link{
+     /* COMANDOS PARA MODIFICAR LOS LINKS */
+        display: block;  /*PARA QUE APARESCA COMO CUADRO EL LINK*/
+        width: 80px; /*TAMAÑO DE LA SAMBRA QUE TIENE DEBAJO DEL "REGRESAR"*/
+        font-weight: 3;
+        border-radius: 9px; /*Radio de las esquinas*/
+        background-color: rgb(63, 59, 59); /*Color que tiene antes de que acerquen el raton al cuadro del link*/
+        color: rgb(211, 217, 223); /*Color de las letras antes de que acerquen el raton al cuadro del link */
+        padding: 10px 6px; /* Medidas para que sobre salga el fondo del link hacia X y Y */
+        position: absolute; /* Posicion para que si tiene letras al lado del link (como el de reporte)
+                             no colapsen o tenga un desalineamiento de posiciones */
+
+    }
+.Boton-link:hover{ /* COMANDOS CUANDO ALGUIEN ACERQUE EL RATON AL BOTON DE LINK */
+        background-color: rgb(229, 234, 240); /* EL FONDO CAMBIARA DE COLOR */
+        border: 3px solid rgb(17, 107, 192); /* SU MARCO CAMBIARA DE COLOR (LOS BORDES)*/
+        color: rgb(4, 118, 153); /* COLOR DE LAS LETRAS DE "REGRESAR" */
+}
+.UNIDADES{
+    margin-inline: 4.7%; /*CENTRA EL FONDO DE ATRAS*/
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.59);
+    border-style: inset; /*ESTILO DE LOS BORDES(MARGEN)*/
+    border-width: 10px; /*TAMAÑO DEL BORDE*/
+    background-color: rgba(48, 49, 49, 0.9); /*COLOR DEL FONDO*/
+    height: 480px;
+    width: 85%;
+    padding: 5px 2%; /*EL PRIMERO ES EL ESPACIO DE ARRIBA Y EL OTRO ES EL ESPACIO DEL LADO DERECHO*/
+    padding-left: 2%; /*ESPACIO DEL LADO IZQUIERDO*/
+    overflow: auto; /*ESTILO PARA QUE MUEVAN EL TEXTO CON EL RATON*/
+}
+.IMG{
+    width: 60%;
+    height: 77%;
+    margin-inline: 19%;
+    border-radius: 10px;
+    border-style: none;
+}
+.IMG_2{
+    width: 48%;
+    height: 65%;
+    margin-inline: 25%;
+    border-radius: 10px;
+    border-style: none;
+}
